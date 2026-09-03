@@ -1,8 +1,6 @@
-# Jogo da Forca em Flutter
+# Jogo da Forca
 
-Projeto acadêmico desenvolvido em Flutter com o objetivo de praticar conceitos básicos da linguagem Dart e a criação de interfaces para aplicativos.
-
-O aplicativo apresenta um jogo da forca simples. A cada partida, uma palavra é sorteada e o jogador deve descobri-la escolhendo uma letra por vez antes que suas tentativas acabem.
+O aplicativo apresenta um jogo da forca simples. A cada partida, uma palavra é sorteada e o jogador deve descobrir escolhendo uma letra por vez antes que suas tentativas acabem.
 
 ## Funcionalidades
 
@@ -42,12 +40,4 @@ flutter pub get
 flutter run
 ```
 
-## Tecnologias utilizadas
-
-- Flutter
-- Dart
-- Material Design
-
-## Autor
-
-Desenvolvido por Lucas Kiçula.
+## Desenvolvido por Lucas Kiçula.
