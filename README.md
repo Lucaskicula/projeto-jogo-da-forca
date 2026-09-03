@@ -1,17 +1,53 @@
-# jogodaforca
+# Jogo da Forca em Flutter
 
-A new Flutter project.
+Projeto acadêmico desenvolvido em Flutter com o objetivo de praticar conceitos básicos da linguagem Dart e a criação de interfaces para aplicativos.
 
-## Getting Started
+O aplicativo apresenta um jogo da forca simples. A cada partida, uma palavra é sorteada e o jogador deve descobri-la escolhendo uma letra por vez antes que suas tentativas acabem.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Sorteio aleatório de palavras.
+- Teclado de letras customizado.
+- Bloqueio de letras já utilizadas.
+- Exibição das letras corretas nas respectivas posições.
+- Contador de tentativas restantes.
+- Construção progressiva do boneco conforme os erros.
+- Detecção automática de vitória ou derrota.
+- Histórico das partidas finalizadas.
+- Botão para iniciar uma nova partida.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Estrutura do projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+O código principal está organizado dentro da pasta `lib`:
+
+```text
+lib/
+├── main.dart
+├── pages/
+│   ├── forca_page.dart
+│   └── history_page.dart
+└── widgets/
+    ├── hangman_widget.dart
+    └── letter_button_widget.dart
+```
+
+O projeto utiliza uma estrutura simples, com `StatefulWidget`, `setState`, listas, funções e navegação por meio do `Navigator.push`.
+
+## Como executar
+
+Tenha o Flutter instalado e execute os comandos abaixo na pasta do projeto:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Tecnologias utilizadas
+
+- Flutter
+- Dart
+- Material Design
+
+## Autor
+
+Desenvolvido por Lucas Kiçula.
